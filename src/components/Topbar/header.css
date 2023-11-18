@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  border: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+.headercontainer {
+  height: 50px;
+  width: 100%;
+  background-color: #4267b2;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.headerleft {
+  flex: 2.5;
+}
+.social_logo {
+  display: flex;
+  font-size: 30px;
+  margin-top: 6px;
+  margin-left: 8px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.headermid {
+  flex: 5;
+}
+.searchbar {
+  width: 80%;
+  height: 60%;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+}
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.searchInput {
+  width: 70%;
+  border: 0;
+}
+.searchInput:focus-visible {
+  outline: none;
+}
+
+.headerright {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.headerlink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+}
+.headerIcons {
+  display: flex;
+}
+.headericonitem {
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.headericonbadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 9999999px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 14px;
+  left: -10px;
+  top: -2px;
+  cursor: pointer;
+}
+.headerlink div {
+  margin: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.headerimage {
+  height: 35px;
+  width: 35px;
+  position: relative;
+
+  top: -2px;
+  border-radius: 999999px;
+  object-fit: cover;
+  cursor: pointer;
+}

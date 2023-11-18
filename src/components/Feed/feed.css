@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+.feed {
+  align-items: center;
+  flex: 50%;
+  justify-content: space-around;
+  padding: 50px;
+  padding-top: 0px;
+  height: 100vh;
+}
+.feedWrapper {
+  padding: 20px;
+}

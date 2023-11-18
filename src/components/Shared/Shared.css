@@ -1,0 +1,97 @@
+* {
+  font-family: "Roboto";
+}
+.share {
+  width: 45vw;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.6);
+  align-items: center;
+}
+.shareWrapper {
+  padding: 10px;
+}
+.shareTop {
+  display: flex;
+  align-items: center;
+}
+.shareProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.shareInput {
+  border: none;
+  width: 80%;
+  font-size: 16px;
+  margin-left: 15px;
+}
+.shareInput:focus {
+  outline: none;
+}
+.shareHr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(141, 141, 141);
+}
+.shareBottom {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+.shareOptions {
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+}
+.shareIcon1 {
+  color: red;
+}
+.shareIcon2 {
+  color: blue;
+}
+.shareIcon3 {
+  color: green;
+}
+.shareIcon4 {
+  color: goldenrod;
+}
+.shareIcon1,
+.shareIcon2,
+.shareIcon3,
+.shareIcon4 {
+  font-size: 14px;
+  font-weight: 500;
+  height: 20px;
+  width: 20px;
+}
+.shareOptionText {
+  margin-left: 10px;
+  font-weight: 500;
+}
+.shareButton {
+  border: none;
+  padding: 7px;
+
+  border-radius: 5px;
+  background-color: rgb(74, 175, 74);
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  width: 15%;
+  outline: 0;
+  transition: opacity 0.25s, background-color 0.1s;
+  margin-left: 8%;
+  margin-right: 1%;
+}
+.shareButton:hover {
+  opacity: 75%;
+  background-color: rgb(23, 179, 23);
+}
+.shareButton:active {
+  opacity: 55%;
+}
