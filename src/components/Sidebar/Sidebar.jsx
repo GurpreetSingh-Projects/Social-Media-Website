@@ -1,6 +1,7 @@
 import "./sidebar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Users from "../../dummyData";
+import { Users } from "../../dummyData";
+import Close from "../Close Friends/Close";
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -70,14 +71,9 @@ export default function Sidebar() {
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
-          <li className="sidebarFriend">
-            <img
-              className="sidebarFriendImg"
-              src="assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="sidebarFriendName">John Doe</span>
-          </li>
+          {Users.map((u) => (
+            <Close key={u.id} user={u} />
+          ))}
         </ul>
       </div>
     </div>

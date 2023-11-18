@@ -1,6 +1,6 @@
 import "./rightbar.css";
-import Users from "../../dummyData";
-import Online from "../Online Friends/Online";
+import Online from "../onlineFriends/Online";
+import { Users } from "../../dummyData";
 export default function Rightbar() {
   return (
     <div className="rightbar">
