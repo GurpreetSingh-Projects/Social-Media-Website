@@ -4,14 +4,15 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
+  z-index: 1000;
 }
 .headercontainer {
+  display: flex;
   height: 50px;
   width: 100%;
   background-color: #4267b2;
-  display: flex;
   position: sticky;
-  top: 0;
+  top: 0px;
   z-index: 1000;
 }
 .headerleft {
@@ -96,7 +97,6 @@ body {
   height: 35px;
   width: 35px;
   position: relative;
-
   top: -2px;
   border-radius: 999999px;
   object-fit: cover;

@@ -6,13 +6,12 @@
 }
 .sidebar {
   display: flex;
-  /*  */
   position: sticky;
   top: 50px;
-  /*  */
   overflow-y: scroll;
   height: calc(100vh - 50px);
   flex: 3;
+  z-index: 1;
 }
 .sidebarWrapper {
   padding: 20px;
