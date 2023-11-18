@@ -6,8 +6,7 @@
 }
 .rightbar {
   display: flex;
-  flex: 30%;
-  height: 90vh;
+  flex: 3;
   position: sticky;
   top: 50px;
 }

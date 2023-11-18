@@ -6,12 +6,14 @@
 }
 .sidebar {
   display: flex;
+  /*  */
   position: sticky;
-  bottom: 0px;
-  flex: 20%;
+  top: 50px;
+  /*  */
+  height: calc(100vh - 50px);
+  flex: 3;
   overflow-y: scroll;
 }
-
 .sidebarWrapper {
   padding: 20px;
 }
