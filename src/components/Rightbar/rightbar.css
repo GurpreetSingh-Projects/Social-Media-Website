@@ -6,10 +6,11 @@
 }
 .rightbar {
   display: flex;
-  flex: 3.5;
   position: sticky;
   top: 50px;
-  z-index: 1;
+  overflow-y: scroll;
+  height: calc(100vh - 50px);
+  flex: 3.5;
 }
 .rightbarWrapper {
   padding: 20px 20px 0 0;
