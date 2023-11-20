@@ -10,7 +10,7 @@
   top: 50px;
   overflow-y: scroll;
   height: calc(100vh - 50px);
-  flex: 3.5;
+  flex: 4;
 }
 .rightbarWrapper {
   padding: 20px 20px 0 0;
