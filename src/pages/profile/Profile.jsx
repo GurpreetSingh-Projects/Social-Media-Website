@@ -24,13 +24,14 @@ export default function Profile() {
                   className="profileUserImg"
                 />
               </div>
-              <div className="profileInfo"></div>
-              <h4 className="profileInfoName">Gurpreet Singh</h4>
-              <span className="profileInfoDesc">Hello everyone</span>
+              <div className="profileInfo">
+                <h4 className="profileInfoName">Gurpreet Singh</h4>
+                <span className="profileInfoDesc">Hello everyone</span>
+              </div>
             </div>
             <div className="profileRightBottom">
               <Feed />
-              <Rightbar />
+              <Rightbar profile />
             </div>
           </div>
         </div>
