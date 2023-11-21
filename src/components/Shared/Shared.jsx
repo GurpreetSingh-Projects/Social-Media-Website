@@ -7,7 +7,7 @@ export default function Shared() {
         <div className="shareTop">
           <img
             className="shareProfileImg"
-            src="/assets/person/1.jpeg"
+            src="https://gurpreetsingh-projects.github.io/Social-Media-Website/assets/person/1.jpeg"
             alt="profile pic"
           />
           <input className="shareInput" placeholder="What's on Your Mind ?" />

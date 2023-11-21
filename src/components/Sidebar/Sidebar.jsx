@@ -1,6 +1,6 @@
 import "./sidebar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Users } from "../../dummyData";
+import { Users } from "../../dummyData.js";
 import Close from "../Close Friends/Close";
 export default function Sidebar() {
   return (

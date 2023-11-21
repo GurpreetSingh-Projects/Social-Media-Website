@@ -1,6 +1,6 @@
 import "./rightbar.css";
 import Online from "../onlineFriends/Online";
-import { Users } from "../../dummyData";
+import { Users } from "../../dummyData.js";
 import Profile from "../../pages/profile/Profile";
 export default function Rightbar({ profile }) {
   const HomeRightbar = () => {
