@@ -6,10 +6,14 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 import Profile from "./pages/profile/Profile.jsx";
 import Login from "./pages/login/Login.jsx";
+import Register from "./pages/register/register.jsx";
 function App() {
   return (
     <div>
+      <Home />
+      <Profile />
       <Login />
+      <Register />
     </div>
   );
 }
