@@ -8,7 +8,7 @@ import Profile from "./pages/profile/Profile.jsx";
 function App() {
   return (
     <div>
-      <Home />
+      <Profile />
     </div>
   );
 }

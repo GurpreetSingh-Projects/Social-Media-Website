@@ -2,7 +2,7 @@
   display: flex;
 }
 .profileRight {
-  flex: 9;
+  flex: 12;
 }
 .profileCover {
   height: 320px;
