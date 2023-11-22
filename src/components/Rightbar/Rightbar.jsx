@@ -12,7 +12,7 @@ export default function Rightbar({ profile }) {
             <b>Pola foster</b> and <b>4 other friends</b> have birthday today.
           </span>
         </div>
-        <img src="assets/ad.png" alt="" className="rightbarAd" />
+        <img src="assets/ad.jpg" alt="" className="rightbarAd" />
         <h4 className="rightbarTitle">Online Friends</h4>
         <ul className="rightbarFriendList">
           {Users.map((u) => (
