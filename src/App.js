@@ -11,9 +11,9 @@ function App() {
   return (
     <div>
       <Home />
-      <Profile />
+      {/* <Profile />
       <Login />
-      <Register />
+      <Register /> */}
     </div>
   );
 }

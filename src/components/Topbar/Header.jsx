@@ -9,7 +9,10 @@ export default function Header() {
       </div>
       <div className="headermid">
         <div className="searchbar">
-          <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
+          <FontAwesomeIcon
+            icon="fa-solid fa-magnifying-glass"
+            className="searchIcon"
+          />
           <input
             type="text"
             placeholder="Search Social Media.."
