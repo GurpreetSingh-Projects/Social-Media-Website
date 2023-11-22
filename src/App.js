@@ -10,10 +10,10 @@ import Register from "./pages/register/register.jsx";
 function App() {
   return (
     <div>
-      <Home />
-      {/* <Profile />
+      {/* <Home /> */}
+      {/* <Profile /> */}
       <Login />
-      <Register /> */}
+      {/* <Register /> */}
     </div>
   );
 }
