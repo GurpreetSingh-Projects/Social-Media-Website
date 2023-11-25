@@ -76,3 +76,8 @@
   object-fit: cover;
   border-radius: 15px;
 }
+@media only screen and (max-width: 600px) {
+  .rightbar {
+    display: none;
+  }
+}

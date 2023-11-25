@@ -73,3 +73,36 @@
   border-bottom: 1px dashed grey;
   font-size: 15px;
 }
+@media only screen and (max-width: 600px) {
+  .post {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .postWrapper {
+    padding: 10px;
+  }
+  .postProfileImg {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 999999999px;
+  }
+  .postUsername {
+    font-size: 14px;
+  }
+  .postImg {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .likeIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  .postLikeCounter {
+    font-size: 14px;
+  }
+  .postCommentText {
+    font-size: 14px;
+  }
+}

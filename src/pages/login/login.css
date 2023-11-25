@@ -1,8 +1,15 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  list-style: none;
+}
 .login {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: rgba(236, 236, 236, 0.363);
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
 }
@@ -13,16 +20,13 @@
 }
 .loginLeft .loginRight {
   display: flex;
-  flex: 1;
   flex-direction: column;
-  justify-content: center;
 }
 
 .loginLogo {
   font-size: 50px;
   font-weight: 800;
   color: #4267b2;
-
   margin: 20vh 0px 10px 0px;
 }
 .loginDesc {
@@ -77,4 +81,85 @@
   font-size: 17px;
   font-weight: 500;
   cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .login {
+    margin: 0px;
+  }
+  .loginWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .loginLeft,
+  .loginRight {
+    position: relative;
+    top: -200px;
+    left: 30px;
+    right: 30px;
+    height: 100%;
+    width: 100%;
+  }
+  .loginLeft {
+    display: flex;
+    flex: 1;
+  }
+  .loginRight {
+    display: flex;
+    flex: 11;
+    left: 0;
+    right: 0;
+  }
+
+  .loginLogo {
+    font-size: 30px;
+    font-weight: 800;
+    color: #4267b2;
+    margin: 0px;
+  }
+  p.loginDesc {
+    display: flex;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    align-self: center;
+  }
+  .loginRight {
+    width: 100%;
+    height: 100%;
+  }
+  .loginBox {
+    display: flex;
+    flex: 1;
+    height: 100px;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+  }
+  .loginInput {
+    display: flex;
+    height: 40px;
+    width: 900px;
+  }
+  .loginButton {
+    height: 20px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    background-color: #4267b2;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .loginRegisterButton {
+    width: 100%;
+    align-self: center;
+    height: 8vh;
+    border: none;
+    border-radius: 10px;
+    background: #42b72a;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+  }
 }

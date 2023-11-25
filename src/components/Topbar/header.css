@@ -104,3 +104,20 @@ body {
   object-fit: cover;
   cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+  .headerleft {
+    flex: 5;
+  }
+  .social_logo {
+    font-size: 25px;
+    align-self: center;
+    margin-top: 10px;
+  }
+  .headermid,
+  .headerlink,
+  .searchInput {
+    display: none;
+  }
+  .headericons {
+  }
+}
