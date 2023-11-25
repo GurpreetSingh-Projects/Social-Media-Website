@@ -7,13 +7,14 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 import Profile from "./pages/profile/Profile.jsx";
 import Login from "./pages/login/Login.jsx";
 import Register from "./pages/register/register.jsx";
+import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div>
-      {/* <Home /> */}
+      <Home />
       {/* <Profile /> */}
       {/* <Login /> */}
-      <Register />
+      {/* <Register /> */}
     </div>
   );
 }
