@@ -12,8 +12,8 @@ function App() {
     <div>
       {/* <Home /> */}
       {/* <Profile /> */}
-      <Login />
-      {/* <Register /> */}
+      {/* <Login /> */}
+      <Register />
     </div>
   );
 }
