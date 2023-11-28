@@ -1,7 +1,7 @@
 {
   "//": "'homepage': 'https://GurpreetSingh-Projects.github.io/Social-Media-Website'",
   "name": "Social-Media-Website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
