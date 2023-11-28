@@ -1,7 +1,6 @@
 import "./Shared.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Profile from "../../pages/profile/Profile";
-import { Routes } from "react-router-dom";
 export default function Shared() {
   return (
     <div className="share">
@@ -13,7 +12,6 @@ export default function Shared() {
             alt="profile pic"
             Link="/Profile"
           />
-          <Routes></Routes>
           <input className="shareInput" placeholder="What's on Your Mind ?" />
         </div>
         <hr className="shareHr" />
