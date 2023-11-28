@@ -1,17 +1,18 @@
 import "./Shared.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Profile from "../../pages/profile/Profile";
+import { Link } from "react-router-dom";
 export default function Shared() {
   return (
     <div className="share">
       <div className="shareWrapper">
         <div className="shareTop">
-          <img
-            className="shareProfileImg"
-            src="https://gurpreetsingh-projects.github.io/Social-Media-Website/assets/person/1.jpeg"
-            alt="profile pic"
-            Link="/Profile"
-          />
+          <Link to="/profile">
+            <img
+              className="shareProfileImg"
+              src="https://gurpreetsingh-projects.github.io/Social-Media-Website/assets/person/1.jpeg"
+              alt="profile pic"
+            />
+          </Link>
           <input className="shareInput" placeholder="What's on Your Mind ?" />
         </div>
         <hr className="shareHr" />

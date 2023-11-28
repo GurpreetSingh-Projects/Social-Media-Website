@@ -1,3 +1,8 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
 .login {
   width: 100vw;
   height: 100vh;

@@ -8,6 +8,7 @@
 .shareWrapper {
   padding: 10px;
 }
+
 .shareTop {
   display: flex;
   align-items: center;
@@ -18,6 +19,7 @@
   border-radius: 50%;
   object-fit: cover;
   margin-right: 10px;
+  cursor: pointer;
 }
 .shareInput {
   border: none;

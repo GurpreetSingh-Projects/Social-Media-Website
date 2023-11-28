@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -5,7 +6,9 @@ export default function Header() {
   return (
     <div className="headercontainer">
       <div className="headerleft">
-        <span className="social_logo">Social Media</span>
+        <Link className="link" to="/home">
+          <span className="social_logo">Social Media</span>
+        </Link>
       </div>
       <div className="headermid">
         <div className="searchbar">
@@ -50,7 +53,9 @@ export default function Header() {
           />
           <div className="headericonbadge">3</div>
         </div>
-        <img src="assets/person/1.jpeg" alt="" className="headerimage" />
+        <Link className="link" to="/profile">
+          <img src="assets/person/1.jpeg" alt="" className="headerimage" />
+        </Link>
       </div>
     </div>
   );

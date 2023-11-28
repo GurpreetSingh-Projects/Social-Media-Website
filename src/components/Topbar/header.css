@@ -6,6 +6,10 @@ body {
   font-family: "Roboto", sans-serif;
   z-index: 1000;
 }
+.link {
+  margin-left: 0px;
+  text-decoration: none;
+}
 .headercontainer {
   display: flex;
   height: 50px;
@@ -69,6 +73,7 @@ body {
 }
 .headerIcons {
   display: flex;
+  margin-top: 3px;
 }
 .headericonitem {
   margin-right: 10px;
@@ -99,7 +104,7 @@ body {
   height: 35px;
   width: 35px;
   position: relative;
-  top: -2px;
+
   border-radius: 999999px;
   object-fit: cover;
   cursor: pointer;
@@ -112,6 +117,7 @@ body {
     font-size: 25px;
     align-self: center;
     margin-top: 10px;
+    margin-left: -60px;
   }
   .headermid,
   .headerlink,
@@ -119,5 +125,12 @@ body {
     display: none;
   }
   .headericons {
+  }
+}
+@media only screen and (max-width: 950px) {
+  .social_logo {
+    font-size: 25px;
+    align-self: center;
+    margin-top: 10px;
   }
 }

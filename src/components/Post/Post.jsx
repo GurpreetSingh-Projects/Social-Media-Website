@@ -2,7 +2,7 @@ import "./Post.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Users } from "../../dummyData.js";
 import { useState } from "react";
-
+// Likes feature
 export default function Post({ post }) {
   const [like, setLike] = useState(post.like);
   const [isLiked, setIsLiked] = useState(false);
