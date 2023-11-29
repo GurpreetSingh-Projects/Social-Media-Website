@@ -1,7 +1,7 @@
 {
-  "homepage": "https://GurpreetSingh-Projects.github.io/Social-Media-Website/register",
+  "homepage": "https://gurpreetsingh-projects.github.io/Social-Media-Website",
   "name": "Social-Media-Website",
-  "version": "1.0.2",
+  "version": "1.0.22",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",

@@ -13,7 +13,7 @@
 .feedWrapper {
   padding: 20px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .feed,
   .feedWrapper {
     padding: 0;

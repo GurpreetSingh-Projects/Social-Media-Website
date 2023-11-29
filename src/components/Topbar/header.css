@@ -110,7 +110,7 @@ body {
   object-fit: cover;
   cursor: pointer;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .headerleft {
     flex: 5;
   }
@@ -127,12 +127,5 @@ body {
   }
   .headerIcons {
     margin-right: 3px;
-  }
-}
-@media only screen and (max-width: 950px) {
-  .social_logo {
-    font-size: 25px;
-    align-self: center;
-    margin-top: 10px;
   }
 }
