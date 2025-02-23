@@ -1,4 +1,4 @@
-Deployed Build - https://gurpreetsingh-projects.github.io/Social-Media-Website/
+Deployed Build - [https://gurpreetsingh-projects.github.io/Social-Media-Website/](https://gsc-social-media.vercel.app/)
 
 Screenshots - 
 ![image](https://github.com/GurpreetSingh-Projects/Social-Media-Website/assets/109432602/17e065aa-50ba-443c-9f9d-128b97f0e40e)
