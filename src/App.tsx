@@ -1,8 +1,8 @@
-import {Home} from "./pages/Home";
-import {Profile} from "./pages/Profile";
+import { Home } from "./pages/Home";
+import { Profile } from "./pages/Profile";
 import Login from "./pages/Login";
 import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
-import Register from "./pages/register";
+import Register from "./pages/Register";
 export const App: React.FC = () => {
   return (
     <div>
